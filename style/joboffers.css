@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: #512f74;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*Navbar*/
+
+.content {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #512f74;
+    position: fixed;
+    padding-left: 30rem;
+    padding-right: 150px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .navigation {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .navigation li a {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.content .navigation li a:hover {
+    color: #ae842b;
+}
+
+/*Form*/
+
+.jobform {
+    padding-top: 25vh;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/assets/joboffers.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7vh;
+}
+
+.jobform h1 {
+    color: #ae842b;
+    margin-left: 7%;
+    font-size: 6rem;
+    text-align: center; 
+}
+
+fieldset {
+    background-color: #512f74;
+    font-size:12px;
+    width:250px;
+    line-height:1.8;
+    margin: 40px;
+}
+
+.jobform div {
+    margin-bottom: 1em;
+}
+
+.jobform label {
+    color: #ae842b;
+    display: block;
+    font-size: 30px;
+}
+
+fieldset div {
+    margin-right: 1em;
+}
+
+div input {
+    padding: 0.2em;
+    background-color: #512f74;
+    color: #ffffff;
+    outline: 0;
+}
+
+#optarea {
+    color: #ffffff;
+}
+
+textarea {
+    padding: 0.2em;
+    background-color: #512f74;
+    color: #ffffff;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #ae842b;
+}
+
+.submit {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ae842b;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+    margin-top: 5rem;
+}
+
+.submit:hover {
+    border: 1px solid #ae842b;
+    background-color: transparent;
+    color: #ae842b;
+}
+
+/*Social Media*/
+
+.socialmedia {
+    width: 100%;
+    background-color: #512f74;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #ae842b;
+    padding-bottom: 4rem;
+}
+
+.socialmedia h3 {
+   font-size: 5rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   font-family: 'Oswald', sans-serif; 
+   text-transform: uppercase;
+}
+
+.socialmediaicons ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #ae842b;
+    transition: all 200ms ease-in; 
+    
+}
+
+.fa-instagram:hover {
+    color: #f50d8a;
+}
+
+.fa-facebook:hover {
+    color: #1278f3;
+}
+
+.fa-youtube:hover {
+    color: #ff0000;
+}
+
+@media only screen and (max-width:768px){
+    
+    body {
+        background-color: #512f74;
+    }
+
+    .content {
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #512f74;
+        position: fixed;
+        padding-left: 11%;
+        padding-right: 150px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+}

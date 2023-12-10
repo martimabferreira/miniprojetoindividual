@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    width: 100vw;
+    height: 200vh;
+    font-size: 62.5%;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #512f74;
+}
+
+/*Navbar*/
+
+.content {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #512f74;
+    position: fixed;
+    padding-left: 30rem;
+    padding-right: 150px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .navigation {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .navigation li a {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.content .navigation li a:hover {
+    color: #ae842b;
+}
+
+/*About Us*/
+
+.aboutus {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/assets/aboutus.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus .aboutuscontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aboutus h1 {
+    color: #ae842b;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.aboutus h2 {
+    color: rgb(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.buttonaboutus a {
+   padding-left: 125px;
+}
+
+.buttonaboutus button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ae842b;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+    margin-top: 5rem;   
+}
+
+.buttonaboutus button:hover {
+    border: 1px solid #ae842b;
+    background-color: transparent;
+    color: #ae842b;
+}
+
+.buttonaboutus {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Menu*/
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/assets/menu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .menucontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menu h1 {
+    color: #ae842b;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu h2 {
+    color: rgb(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.buttonmenu a {
+   padding-left: 125px;
+}
+
+.buttonmenu button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ae842b;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+    margin-top: 5rem;   
+}
+
+.buttonmenu button:hover {
+    border: 1px solid #ae842b;
+    background-color: transparent;
+    color: #ae842b;
+}
+
+.buttonmenu {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Job Offers*/
+
+.joboffers {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/assets/joboffers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.joboffers .jobofferscontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.joboffers h1 {
+    color: #ae842b;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.joboffers h2 {
+    color: rgb(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.buttonjoboffers a {
+   padding-left: 125px;
+   text-transform: uppercase;
+}
+
+.buttonjoboffers button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ae842b;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+    margin-top: 5rem;   
+}
+
+.buttonjoboffers button:hover {
+    border: 1px solid #ae842b;
+    background-color: transparent;
+    color: #ae842b;
+}
+
+.buttonjoboffers {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Social Media*/
+
+.socialmedia {
+    width: 100%;
+    background-color: #512f74;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #ae842b;
+    padding-bottom: 4rem;
+}
+
+.socialmedia h3 {
+   font-size: 5rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   font-family: 'Oswald', sans-serif; 
+   text-transform: uppercase;
+}
+
+.socialmediaicons ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #ae842b;
+    transition: all 200ms ease-in; 
+    
+}
+
+.fa-instagram:hover {
+    color: #f50d8a;
+}
+
+.fa-facebook:hover {
+    color: #1278f3;
+}
+
+.fa-youtube:hover {
+    color: #ff0000;
+}
+
+@media only screen and (max-width:768px){
+    body {
+        background-color: #512f74;
+    }
+
+    .content {
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #512f74;
+        position: fixed;
+        padding-left: 11%;
+        padding-right: 150px;
+    }
+
+    .logo {
+        display: none;
+    }
+    
+    .joboffers h2 {
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
+
+

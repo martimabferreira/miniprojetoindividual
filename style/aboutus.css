@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*Navbar*/
+
+.content {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #512f74;
+    position: fixed;
+    padding-left: 30rem;
+    padding-right: 150px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .navigation {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .navigation li a {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.content .navigation li a:hover {
+    color: #ae842b;
+}
+
+/* About Us */
+
+.aboutus {
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/assets/aboutus.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutustext {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutuscontent {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus img {
+    width: 400px;
+    height: 400px;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    border: 2px solid #ae842b;
+}
+
+.aboutustext h2 {
+   font-size: 6rem;
+   margin-bottom: 10rem;
+   font-family: 'Oswald', sans-serif;
+   color: #ae842b;
+   text-transform: uppercase;
+}
+
+.aboutustext p {
+   text-align: center;
+   font-size: 2rem;
+   width: 600px;
+   margin-bottom: 15rem;
+   font-family: 'Oswald', sans-serif;
+   
+}
+
+/*Social Media*/
+
+.socialmedia {
+    width: 100%;
+    background-color: #512f74;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #ae842b;
+    padding-bottom: 4rem;
+}
+
+.socialmedia h3 {
+   font-size: 5rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   font-family: 'Oswald', sans-serif; 
+   text-transform: uppercase;
+}
+
+.socialmediaicons ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #ae842b;
+    transition: all 200ms ease-in; 
+    
+}
+
+.fa-instagram:hover {
+    color: #f50d8a;
+}
+
+.fa-facebook:hover {
+    color: #1278f3;
+}
+
+.fa-youtube:hover {
+    color: #ff0000;
+}
+
+@media only screen and (max-width:768px){
+    
+    body {
+        background-color: #512f74;
+    }
+
+    .content {
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #512f74;
+        position: fixed;
+        padding-left: 11%;
+        padding-right: 150px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .aboutus {
+        background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(/assets/aboutus.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: 50px;
+        width: 100%;
+        padding-bottom: 5rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .aboutusimg {
+        display: none;
+    }
+}
+
+    
+
+
